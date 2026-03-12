@@ -5,7 +5,7 @@ const port = 3000
 // //const alunos = [
 //   {id: 1, nome: "Joh", idade: 18},
 //   {id: 2, nome: "Saara", idade: 17},
-//   {id: 3, nome: "Nicolly", idade: 15},
+//   {id: 3, nome: "Cathayssa", idade: 23},
 // ]*//
 
 let frutas = [
@@ -30,6 +30,13 @@ app.get('/frutas/getAll', (req, res) => {
   res.json({
        sucess: true,
        data: frutas
+  })
+})
+
+app.get('/alunos/getAll', (req, res) => {
+  res.json({
+       sucess: true,
+       data: alunos
   })
 })
 
