@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "scripts": {"Cherry": "node --watch ./src/services.js"},
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
